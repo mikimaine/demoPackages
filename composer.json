@@ -1,0 +1,20 @@
+{
+  "name" : "mikimaine/demo",
+  "Keyword" : ["laravel","Demo"],
+  "license" : "MIT",
+  "authors" : [
+             {
+               "name": "Miki Maine Amdu",
+               "email": "mikias.amdu@gmail.com"
+             }],
+  "autoload": {
+    "psr-4": {
+      "Mikimaine\\Demo\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "~5"
+  }
+
+
+}
