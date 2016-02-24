@@ -6,5 +6,4 @@
  * Time: 1:55 AM
  */
 
-
-echo "haha";
+?>

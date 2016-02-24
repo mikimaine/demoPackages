@@ -34,6 +34,7 @@ class DemoServiceProvider extends ServiceProvider{
 
         $this->loadViewsFrom(__DIR__.'/views','mikimaine-demo');
 
-        //$this->loadTranslationsFrom('','');
+        $this->loadTranslationsFrom(__DIR__.'/Lang','mikimaine-demo');
+
     }
 }

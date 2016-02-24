@@ -10,10 +10,13 @@ namespace Mikimaine\Demo\Http\Controller;
 use Illuminate\Routing\Controller as BaseController;
 
 
+
 class DemoController  extends BaseController
 {
     public function index()
     {
-        return \Demo::hello() . ' from controller';
+
+        //return view('mikimaine-demo::welcome');
+        return \Theme::view('home');
     }
 }
